@@ -1,13 +1,12 @@
-package net.SUNYPolyGDC.Green_Dinosaur_Mod.block;
+package net.sunypolygdc.green_dinosaur_mod.block;
 
 
-import net.SUNYPolyGDC.Green_Dinosaur_Mod.GreenDinosaurMod;
-import net.SUNYPolyGDC.Green_Dinosaur_Mod.item.ModItems;
+import net.sunypolygdc.green_dinosaur_mod.GreenDinosaurMod;
+import net.sunypolygdc.green_dinosaur_mod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

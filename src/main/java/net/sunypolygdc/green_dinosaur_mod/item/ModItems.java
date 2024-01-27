@@ -1,9 +1,7 @@
-package net.SUNYPolyGDC.Green_Dinosaur_Mod.item;
+package net.sunypolygdc.green_dinosaur_mod.item;
 
-import net.SUNYPolyGDC.Green_Dinosaur_Mod.GreenDinosaurMod;
-import net.minecraft.world.item.BlockItem;
+import net.sunypolygdc.green_dinosaur_mod.GreenDinosaurMod;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

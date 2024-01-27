@@ -1,11 +1,9 @@
-package net.SUNYPolyGDC.Green_Dinosaur_Mod;
+package net.sunypolygdc.green_dinosaur_mod;
 
 import com.mojang.logging.LogUtils;
-import net.SUNYPolyGDC.Green_Dinosaur_Mod.block.ModBlocks;
-import net.SUNYPolyGDC.Green_Dinosaur_Mod.item.ModCreativeTab;
-import net.SUNYPolyGDC.Green_Dinosaur_Mod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
+import net.sunypolygdc.green_dinosaur_mod.block.ModBlocks;
+import net.sunypolygdc.green_dinosaur_mod.item.ModCreativeTab;
+import net.sunypolygdc.green_dinosaur_mod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
