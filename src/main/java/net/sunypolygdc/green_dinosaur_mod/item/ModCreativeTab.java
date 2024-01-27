@@ -19,6 +19,7 @@ public class ModCreativeTab {
                     .title(Component.translatable("creativetab.green_dino_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.EXAMPLE_ITEM.get());
+                        pOutput.accept(ModItems.COPPER_DINO_ARMOR.get());
 
                         pOutput.accept(ModBlocks.EXAMPLE_BLOCK.get());
                     })

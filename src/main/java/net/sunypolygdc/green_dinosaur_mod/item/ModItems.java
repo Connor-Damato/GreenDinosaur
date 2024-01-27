@@ -13,6 +13,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item", () -> new Item(new Item.Properties()));
 
+    // DinoArmor!
+    public static final RegistryObject<Item> COPPER_DINO_ARMOR = ITEMS.register("copper_dino_armor", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_DINO_ARMOR = ITEMS.register("iron_dino_armor", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_DINO_ARMOR = ITEMS.register("diamond_dino_armor", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_DINO_ARMOR = ITEMS.register("netherite_dino_armor", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CREATIVE_DINO_ARMOR = ITEMS.register("creative_dino_armor", () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

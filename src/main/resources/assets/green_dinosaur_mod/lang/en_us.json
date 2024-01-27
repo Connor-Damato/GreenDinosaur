@@ -1,7 +1,8 @@
 {
-  "item.green_dinosaur_mod.example_item": "Example Item",
+  "item.green_dinosaur_mod.example_item": "Test Item",
+  "item.green_dinosaur_mod.copper_dino_armor": "Copper Dino Armor",
 
-  "block.green_dinosaur_mod.example_block": "Example Block",
+  "block.green_dinosaur_mod.example_block": "Test Block",
 
   "creativetab.green_dino_tab": "SUNY Poly GDC"
 }
