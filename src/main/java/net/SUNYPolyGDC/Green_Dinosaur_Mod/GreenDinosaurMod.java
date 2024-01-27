@@ -1,6 +1,11 @@
 package net.SUNYPolyGDC.Green_Dinosaur_Mod;
 
 import com.mojang.logging.LogUtils;
+import net.SUNYPolyGDC.Green_Dinosaur_Mod.block.ModBlocks;
+import net.SUNYPolyGDC.Green_Dinosaur_Mod.item.ModCreativeTab;
+import net.SUNYPolyGDC.Green_Dinosaur_Mod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -25,6 +30,11 @@ public class GreenDinosaurMod
     public GreenDinosaurMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeTab.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

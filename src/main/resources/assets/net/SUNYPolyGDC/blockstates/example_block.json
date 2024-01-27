@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "green_dinosaur_mod:block/example_block"
+    }
+  }
+}
