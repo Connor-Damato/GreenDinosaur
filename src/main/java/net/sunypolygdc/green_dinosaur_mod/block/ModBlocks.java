@@ -20,7 +20,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, GreenDinosaurMod.MOD_ID);
 
     public static final RegistryObject<Block> EXAMPLE_BLOCK =
-            registerBlock("example_block", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
+            registerBlock("example_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
