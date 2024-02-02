@@ -18,10 +18,17 @@ public class ModCreativeTab {
             CREATIVE_MODE_TABS.register("green_dino_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.EXAMPLE_ITEM.get()))
                     .title(Component.translatable("creativetab.green_dino_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.EXAMPLE_ITEM.get());
-                        pOutput.accept(ModItems.COPPER_DINO_ARMOR.get());
+                        // Fruits
+                        pOutput.accept(ModItems.DINO_FRUIT.get());
+                        pOutput.accept(ModItems.BLUE_FRUIT.get());
 
-                        pOutput.accept(ModBlocks.EXAMPLE_BLOCK.get());
+                        // Armors
+                        pOutput.accept(ModItems.COPPER_DINO_ARMOR.get());
+                        pOutput.accept(ModItems.IRON_DINO_ARMOR.get());
+                        pOutput.accept(ModItems.GOLD_DINO_ARMOR.get());
+                        pOutput.accept(ModItems.DIAMOND_DINO_ARMOR.get());
+                        pOutput.accept(ModItems.NETHERITE_DINO_ARMOR.get());
+                        pOutput.accept(ModItems.CREATIVE_DINO_ARMOR.get());
                     })
                     .build());
 
