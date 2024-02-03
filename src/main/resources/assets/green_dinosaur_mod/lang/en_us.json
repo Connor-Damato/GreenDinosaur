@@ -1,0 +1,16 @@
+{
+  "item.green_dinosaur_mod.example_item": "Test Item",
+  "block.green_dinosaur_mod.example_block": "Test Block",
+
+  "item.green_dinosaur_mod.copper_dino_armor": "Copper Dino Armor",
+  "item.green_dinosaur_mod.iron_dino_armor": "Iron Dino Armor",
+  "item.green_dinosaur_mod.gold_dino_armor": "Gold Dino Armor",
+  "item.green_dinosaur_mod.diamond_dino_armor": "Diamond Dino Armor",
+  "item.green_dinosaur_mod.netherite_dino_armor": "Netherite Dino Armor",
+  "item.green_dinosaur_mod.creative_dino_armor": "Creative Dino Armor",
+
+  "item.green_dinosaur_mod.dino_fruit": "Green Dino Fruit",
+  "item.green_dinosaur_mod.blue_fruit": "Blue Dino Fruit",
+
+  "creativetab.green_dino_tab": "SUNY Poly GDC"
+}
